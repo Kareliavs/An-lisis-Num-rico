@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="MiniLab"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="4">
+      <Item1>
+        <PackageName Value="TAChartLazarusPkg"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="cmdbox"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="SpkToolbarPackage"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="LCL"/>
+      </Item4>
+    </RequiredPackages>
+    <Units Count="17">
+      <Unit0>
+        <Filename Value="MiniLab.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="datamodule.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DM"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="DataModule"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="plot.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="framePlot"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="Parse\parsemath.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ParseMath"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="cmatriz.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="parsestring.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="funciones.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="edo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="EDO"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="matrix.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Matrix"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="inversa.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Inversa"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="newtong.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="NewtonG"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="jacobiana.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Jacobiana"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="lagrange1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Lagrange1"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="integral.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Integral"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="conversor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Conversor"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="parsemath1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ParseMath1"/>
+      </Unit16>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="MiniLab"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="Parse"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
